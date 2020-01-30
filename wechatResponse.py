@@ -15,6 +15,6 @@ def auto_reply_all(msg):
     s=input("请输入内容：")
     msg.reply("在忙！稍等")
     msg.reply_image('jerry.png')
-
+    
 #开始运行
 bot.join()
